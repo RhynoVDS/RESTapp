@@ -1,0 +1,83 @@
+User -> REST -> Repository -> Data Source
+  
+
+
+Repository - Security
+Data Source
+
+IAuthorisedChecker
+-HasReadAccess(table,column) - bool
+-HaswriteAccess(table,column) - bool
+-HasDeleteAccess(table) - bool
+
+-HasReadAccess(user,table)
+-HasWriteAccess(user,table)
+-HasDeleteAccess(user,table)
+-HasCreateAccess(user,table)
+
+
+--
+api/Security/
+
+Security/access/{table} - Returns all secuirty settings for the given table
+
+Security/access/read/{table}
+Post - 
+GET
+Delete
+
+Security/access/write/{table}
+
+Security/access/delete/{table}
+
+Security/access/create/{table}
+
+
+Security/Users
+Security/UserRoles
+Security/Roles
+
+
+asdfasdf/api/security/access/{table}
+
+{
+ read:[ roles ]
+ write:[roles]
+ create:[roles]
+ delete:[reoles]
+ 
+}
+
+--
+
+
+
+
+--
+MVP
+
+Security Read/Write/Delete access at table level.
+Custom Tables through Rest API
+Search Custom tables
+
+Track everything in update sets
+
+
+--
+
+RESTapi
+Configurable
+
+Restableapi.io
+
+
+
+RESTapp
+Rester
+
+http://rester.io/
+http://restap.io
+http://resteble.io
+
+http://restar.io/
+
